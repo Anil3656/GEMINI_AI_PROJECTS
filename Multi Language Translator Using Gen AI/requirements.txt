@@ -1,0 +1,8 @@
+streamlit>=1.18.0
+langchain-google-genai>=0.1.0
+langchain-core>=0.0.1
+gTTS>=2.3.0
+openai-whisper>=20230314
+whisper # sometimes alternative package name; install openai-whisper as recommended
+accelerate
+torch      # required for whisper (install correct version for your CUDA/CPU)
